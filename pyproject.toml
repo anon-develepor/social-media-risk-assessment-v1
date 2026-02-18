@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "social-media-risk-assessment"
+version = "0.1.0"
+description = "Bootstrap for social media risk assessment."
+#authors removed for anonymity
+readme = "README.md"
+packages = [{ include = "pii_risk", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pandas = "*"
+pyarrow = "*"
+pydantic = "*"
+regex = "*"
+scikit-learn = "*"
+typer = "*"
+tqdm = "*"
+datasets = "^4.4.2"
+huggingface-hub = "^1.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

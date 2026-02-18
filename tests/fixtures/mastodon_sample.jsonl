@@ -1,0 +1,3 @@
+{"id": "100", "created_at": "2025-01-15T12:00:00Z", "account": {"id": "acct-1", "username": "alice"}, "content": "<p>Hello <strong>world</strong></p>", "uri": "https://mastodon.social/@alice/100"}
+{"id": "101", "created_at": "2025-01-20T08:30:00+00:00", "account": {"acct": "bob@example.com"}, "content": "<p>Replying</p>", "in_reply_to_id": "100", "conversation_id": "conv-1", "url": "https://example.com/@bob/101"}
+{"id": "102", "created_at": "2024-12-05T18:45:00", "account": {"username": "charlie"}, "text": "Plain text post", "uri": "https://mastodon.example/@charlie/102"}

@@ -1,0 +1,4 @@
+{"id": "p1", "author": "alice", "created_utc": 1735689600, "subreddit": "news", "title": "First post", "selftext": "Hello world", "link_id": "t3_p1"}
+{"id": "p2", "author": "bob", "created_utc": 1735776000, "subreddit": "updates", "title": "Second post", "selftext": "More text", "link_id": "t3_p2"}
+{"id": "c1", "author": "carol", "created_utc": 1735689600, "subreddit": "news", "body": "Nice post", "parent_id": "t3_p1", "link_id": "t3_p1"}
+{"id": "c2", "author": "dave", "created_utc": 1735776000, "subreddit": "updates", "body": "Thanks", "parent_id": "t3_p2", "link_id": "t3_p2"}

@@ -1,0 +1,23 @@
+{
+  "feature_groups": {
+    "numeric": [
+      "length_chars",
+      "length_words",
+      "count_digits",
+      "num_pii_spans",
+      "num_unique_pii_types",
+      "count_emails",
+      "count_phones",
+      "count_urls"
+    ],
+    "tfidf": {
+      "lowercase": true,
+      "max_df": 0.8,
+      "min_df": 5,
+      "stop_words": "english",
+      "type": "word"
+    }
+  },
+  "label_rule": "y_risk=1 if rule_score>=25 or PII types include SSN/CREDIT_CARD; else 0",
+  "train_test_split": "sorted by created_at, last 20% as test"
+}
